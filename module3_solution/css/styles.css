@@ -3,6 +3,7 @@
   background-color: #f6b319;
   border-radius: 0;
   border: 0;
+  margin-bottom: auto;
 }
 
 .navbar-brand {
@@ -23,6 +24,36 @@
   text-decoration: none;
 }
 
+
+#nav-list {
+
+  clear: all;
+ margin-top: 0;
+ margin-bottom: auto;
+
+  
+}
+#nav-list a {
+
+  border-top: 2px solid black;
+  color: #f6b319;
+  background-color: blue;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+#nav-list a:hover {
+
+  background-color: black;
+}
+
+  
+
+ #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+
+  }
+ 
 .row {
  
   position: relative;
@@ -30,11 +61,13 @@
 
 #main-text{
 
+  display: block;
+  overflow: scroll;
   height: 1000px;
-  width: 100%;
-  margin: 25px auto 25px 25px;
+  padding: 10px;
+  margin: 20px;
   border: 2px solid blue;
   background-color: gray;
   font-weight: bold;
 
-}
+ }
